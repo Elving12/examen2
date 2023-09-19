@@ -9,6 +9,7 @@
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet"/>
 <meta name="Description" content=" Es un sitio de food delivery, donde podemos llevar a la comodidad de tu casa"/>
 <meta name="keywords" content="food, delivery, hamburguesa, taco, domicilio, casa, comida"/>
   
@@ -54,7 +55,8 @@
 		<div class="container-fluid">
 				<div class="row">
 					<article class="col-lg-3 col-sm-3 col-12">
-						<h1>Express <br> Home Delivery</h1>
+						<h1 id="blanco2">Express</h1>
+						<h1 id="naranja2">Home Delivery</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a vestibulum leo, a tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a vestibulum leo, a tincidunt.</p>
 						<button type="button" class="btn btn-warning">Read More</button>
 					</article>
@@ -73,7 +75,9 @@
 			
 			<div class="row mt-5">
 				<article  class="col-lg-3 col-sm-6 col-12">
-					<img src="img/item_03-480x480.jpg" alt="item1"  class="img-fluid d-block m-auto">
+					<a href="img/item_03-480x480.jpg" data-fancybox="gallery" data-caption="Cheeseburger with Salad">
+					<img src="img/item_03-480x480.jpg" alt="moto" class="img-fluid">
+					</a>
 					<ul class="list-inline">
 							<li class="list-inline-item"><i class="las la-star"></i></li>
 							<li class="list-inline-item"><i class="las la-star"></i></li>
@@ -88,7 +92,9 @@
 				</article>
 				
 				<article  class="col-lg-3 col-sm-6 col-12">
-					<img src="img/item_04-480x480.jpg" alt="item2"  class="img-fluid">
+					<a href="img/item_04-480x480.jpg" data-fancybox="gallery" data-caption="Royal Cheeseburger with Bacon">
+					<img src="img/item_04-480x480.jpg" alt="moto" class="img-fluid">
+					</a>
 					<ul class="list-inline">
 							<li class="list-inline-item"><i class="las la-star"></i></li>
 							<li class="list-inline-item"><i class="las la-star"></i></li>
@@ -103,7 +109,9 @@
 				</article>
 	
 				<article  class="col-lg-3 col-sm-6 col-12">
-					<img src="img/item_02-480x480.jpg" alt="item3" class="img-fluid">
+					<a href="img/item_02-480x480.jpg" data-fancybox="gallery" data-caption="Black Gamburger with Fishcake">
+					<img src="img/item_02-480x480.jpg" alt="moto" class="img-fluid">
+					</a>
 					<ul class="list-inline">
 							<li class="list-inline-item"><i class="las la-star"></i></li>
 							<li class="list-inline-item"><i class="las la-star"></i></li>
@@ -118,7 +126,9 @@
 				</article>
 				
 				<article  class="col-lg-3 col-sm-6 col-12">
-					<img src="img/item_01-480x480.jpg" alt="item4" class="img-fluid">
+					<a href="img/item_01-480x480.jpg" data-fancybox="gallery" data-caption="Classic Bacon Hamburger">
+					<img src="img/item_01-480x480.jpg" alt="moto" class="img-fluid">
+					</a>
 					<ul class="list-inline">
 							<li class="list-inline-item"><i class="las la-star"></i></li>
 							<li class="list-inline-item"><i class="las la-star"></i></li>
@@ -193,7 +203,7 @@
 					</article>
 					
 					<article class="col-lg-4 col-sm-6 col-12">
-						<input type="email" name="correo" class="form-control" required placeholder="your email">
+						<input type="email" name="correo" class="form-control" required placeholder="Your email...">
 					</article>
 					
 					<article class="col-lg-1 col-sm-6 col-12">
@@ -212,6 +222,12 @@
 				<img src="img/logo_1x.png" class="img-fluid m-auto d-block" alt="moto">
 				<br>
 				<p>Etiam consequat sem ullamcorper, euismod metus sit amet, tristique justo. Vestibulum mattis, nisi ut<br> faucibus commodo, risus ex commodo.</p>
+				<ul class="list-inline">
+							<li class="list-inline-item"><a href="#"><i class="lab la-facebook-f"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="lab la-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="lab la-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="lab la-youtube"></i></a></li>
+						</ul>
 			</div>
 		</section>
 		<section id="copy">
@@ -227,6 +243,11 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script>Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
 
         
 </body>
