@@ -38,6 +38,11 @@ footer{
 	font-size: 13px;
 	font-weight: 600;
 }
+
+footer i{
+	color: var(--color-naranja);
+	font-size: 12px;
+}
 footer p span{
 	color: #f7b614;
 }
@@ -55,11 +60,17 @@ footer #copy{
 	border-bottom-right-radius: 80%;
 }
 
-h1{
-	padding-top: 30%;
+#naranja2{
+	color: var(--color-naranja);
 	font-family: 'Heebo', sans-serif;
 	font-size: 50px;
+}
+
+#blanco2{
+	padding-top: 30%;
 	color: var(--color-blanco);
+	font-family: 'Heebo', sans-serif;
+	font-size: 50px;
 }
 
 #hero p{
