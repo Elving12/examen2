@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500&family=Heebo:wght@600;700&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-naranja:#f7b614;
+	--color-titulo: #2a2a2a;
+	--color-azul: #282932;
+	--color-blanco: #FFF;
+}
+body{
+
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+a#home{
+	color: var(--color-naranja);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero{
+	padding-top: 3%;
+	background-image: url("../img/slider-glob.png");
+	background-color: var(--color-azul);
+	border-bottom-right-radius: 80%;
+}
+
+h1{
+	padding-top: 30%;
+	font-family: 'Heebo', sans-serif;
+	font-size: 50px;
+	color: var(--color-blanco);
+}
+
+#hero p{
+	color: var(--color-blanco);
+}
+.btn{
+	border-radius: 20%;
+	font-family: 'Heebo', sans-serif;
+}
+
+#popular-goods{
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+#popular-goods .btn{
+	align-content: center;
+	text-align: center;
+	border-radius: 5%;
+}
+
+#popular-goods p{
+	align-content: center;
+}
+
+h2{
+	font-family: 'Heebo', sans-serif;
+	color: var(--color-titulo);
+	text-align: center;
+}
+
+h3{
+	font-family: 'Heebo', sans-serif;
+	color: var(--color-titulo);
+	font-size: 16px;
+	text-align: center;
+}
+ul{
+	text-align: center;
+	color: var(--color-naranja);
+}
+
+#sit{
+	background-color: var(--color-azul);
+	color: var(--color-blanco); 
+}
+
+#sit2{
+	padding-left: 7%;
+	padding-top: 10%;
+}
+
+#blanco{
+	font-family: 'Heebo', sans-serif;
+	text-align: left;
+	color: var(--color-blanco);
+	
+}
+
+#naranja1{
+	font-family: 'Heebo', sans-serif;
+	text-align: left;
+	color: var(--color-naranja);
+}
+
+#sit2 h5{
+	font-family: 'Heebo', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+#sit img{
+	width: 100%;
+}
+
+#sit2 img{
+	padding-left: 25%;
+}
+
+#suscribe{
+	background-color: var(--color-naranja);
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+#suscribe i{
+	font-size: 100px;
+	text-align: center;
+	padding-left: 10%;
+}
+
+#suscribe h2{
+	font-family: 'Heebo', sans-serif;
+	text-align: left;
+	color: var(--color-titulo);
+}
+
+#suscribe h6{
+	font-family: 'Heebo', sans-serif;
+	text-align: left;
+	color: var(--color-blanco);
+}
